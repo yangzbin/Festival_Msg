@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/sms_item">
+    <TextView
+        android:id="@+id/id_tv_sendmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"/>
+    <yzb.com.festival_msg.view.FlowLayout
+        android:id="@+id/id_fl_sendname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </yzb.com.festival_msg.view.FlowLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+        <TextView
+            android:id="@+id/id_tv_sendfesname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tag_bg"/>
+        <TextView
+            android:id="@+id/id_tv_senddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

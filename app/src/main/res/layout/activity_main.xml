@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yzb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yzb.com.festival_msg.MainActivity"
+    android:orientation="vertical">
+    <android.support.design.widget.TabLayout
+        android:id="@+id/id_tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        yzb:tabGravity="fill"
+        yzb:tabMode="fixed"
+        yzb:tabTextColor="#000"
+        yzb:tabIndicatorColor="@color/colorMain"
+        yzb:tabSelectedTextColor="@color/colorMain"
+        android:visibility="visible">
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_width="match_parent">
+
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/wx_tag"
+        android:orientation="horizontal">
+        <yzb.com.festival_msg.view.ChangeColorIconWithText
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            yzb:wx_icon="@drawable/ic_menu_start_conversation"
+            yzb:wx_text="@string/tab_wx"
+            yzb:wx_text_size="12sp"
+            yzb:wx_color="@color/colorMain"  />
+        <yzb.com.festival_msg.view.ChangeColorIconWithText
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            yzb:wx_icon="@drawable/ic_menu_friendslist"
+            yzb:wx_text="@string/tab_contact"
+            yzb:wx_text_size="12sp"
+            yzb:wx_color="@color/colorMain"  />
+        <yzb.com.festival_msg.view.ChangeColorIconWithText
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            yzb:wx_icon="@drawable/ic_menu_emoticons"
+            yzb:wx_text="@string/tab_found"
+            yzb:wx_text_size="12sp"
+            yzb:wx_color="@color/colorMain" />
+        <yzb.com.festival_msg.view.ChangeColorIconWithText
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            yzb:wx_icon="@drawable/ic_menu_allfriends"
+            yzb:wx_text="@string/tab_me"
+            yzb:wx_text_size="12sp"
+            yzb:wx_color="@color/colorMain" />
+
+    </LinearLayout>
+
+</LinearLayout>

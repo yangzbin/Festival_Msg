@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--定义属性-->
+    <attr name="progress_unreach_color" format="color"></attr>
+    <attr name="progress_unreach_height" format="dimension"></attr>
+    <attr name="progress_reach_color" format="color"></attr>
+    <attr name="progress_reach_height" format="dimension"></attr>
+    <attr name="progress_text_color" format="color"></attr>
+    <attr name="progress_text_size" format="dimension"></attr>
+    <attr name="progress_text_offset" format="dimension"></attr>
+    <!--声明属性-->
+    <declare-styleable name="HorizontalProgressBar">
+        <attr name="progress_unreach_color" ></attr>
+        <attr name="progress_unreach_height" ></attr>
+        <attr name="progress_reach_color" ></attr>
+        <attr name="progress_reach_height" ></attr>
+        <attr name="progress_text_color" ></attr>
+        <attr name="progress_text_size" ></attr>
+        <attr name="progress_text_offset" ></attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="radius" format="dimension" ></attr>
+    </declare-styleable>
+    <!--仿微信底部tab自定义布局-->
+    <attr name="wx_icon" format="reference"></attr>
+    <attr name="wx_color" format="color"></attr>
+    <attr name="wx_text" format="string"></attr>
+    <attr name="wx_text_size" format="dimension"></attr>
+
+    <declare-styleable name="ChangeColorIconWithText">
+        <attr name="wx_icon"></attr>
+        <attr name="wx_color"></attr>
+        <attr name="wx_text"></attr>
+        <attr name="wx_text_size"></attr>
+    </declare-styleable>
+</resources>

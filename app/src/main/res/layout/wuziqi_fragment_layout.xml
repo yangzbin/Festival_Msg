@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center">
+   <yzb.com.festival_msg.view.WuziqiPanel
+       android:layout_gravity="center"
+       android:id="@+id/id_wuziqi"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:gravity="center">
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/id_ptop"
+          android:background="#00000000"
+          android:text="人人对战"
+          android:textColor="@color/colorMain"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/id_start"
+          android:background="#00000000"
+          android:text="再来一局" />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/id_ptoc"
+          android:background="#00000000"
+          android:text="人机对战" />
+   </LinearLayout>
+
+
+</LinearLayout>
